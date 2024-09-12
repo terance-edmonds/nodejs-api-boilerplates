@@ -5,6 +5,9 @@ import checkCorsOrigin from './cors';
 import routes from './src/routes';
 import { port } from './config';
 
+// connect to database
+import './database';
+
 const app = express();
 
 // cors
