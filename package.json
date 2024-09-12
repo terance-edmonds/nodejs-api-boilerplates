@@ -6,6 +6,7 @@
     "author": "T.A.Edmonds",
     "license": "MIT",
     "scripts": {
+        "build": "tsc",
         "dev": "nodemon --exec ts-node index.ts",
         "prepare": "husky install"
     },
