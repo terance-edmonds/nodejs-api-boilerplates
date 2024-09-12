@@ -1,0 +1,17 @@
+node_modules
+/dist
+/test
+
+.env
+.env.local
+.env.dev
+.env.development
+.env.stg
+.env.staging
+.env.prod
+.env.production
+
+*backup*
+logs/*
+
+*-audit.json
