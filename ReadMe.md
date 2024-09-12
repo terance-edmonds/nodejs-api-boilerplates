@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a boilerplate for building a web application using Node.js, Express, and TypeScript. It provides a structured foundation for developing scalable and maintainable server-side applications.
+This project is a boilerplate for building a API using Node.js, Express, and TypeScript. It provides a structured foundation for developing scalable and maintainable server-side applications.
 
 ## Features
 
