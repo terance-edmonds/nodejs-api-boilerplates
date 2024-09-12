@@ -6,7 +6,18 @@
     "author": "T.A.Edmonds",
     "license": "MIT",
     "scripts": {
-        "dev": "nodemon --exec ts-node index.ts"
+        "dev": "nodemon --exec ts-node index.ts",
+        "prepare": "husky install"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts,json,md}": [
+            "prettier --write"
+        ]
     },
     "dependencies": {
         "@types/cookie-parser": "^1.4.7",
@@ -22,5 +33,10 @@
         "nodemon": "^3.1.4",
         "ts-node": "^10.9.2",
         "typescript": "^5.6.2"
+    },
+    "devDependencies": {
+        "husky": "^8.0.0",
+        "lint-staged": "^15.2.10",
+        "prettier": "^3.3.3"
     }
 }
